@@ -230,14 +230,14 @@ rtc_init:
   ret
 
 delay:
-	mov r7, #0xff
-	djnz r7, #.
-	ret
+  mov r7, #0xff
+  djnz r7, #.
+  ret
 
 delay50:
-	mov r7, #0x7f
-	djnz r7, #.
-	ret
+  mov r7, #0x7f
+  djnz r7, #.
+  ret
 
 int0:
   ; mov a, #'i'

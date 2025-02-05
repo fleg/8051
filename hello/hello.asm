@@ -13,11 +13,11 @@ main:
   sjmp main
 
 delay:
-	mov r4, #0x00
-	mov r3, #0x00
+  mov r4, #0x00
+  mov r3, #0x00
   mov r2, #0x00
 wait:
-	djnz r4, wait
-	djnz r3, wait
+  djnz r4, wait
+  djnz r3, wait
   djnz r2, wait
-	ret
+  ret
