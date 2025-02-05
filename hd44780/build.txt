@@ -1,0 +1,1 @@
+sdas8051.exe -los F:\fleg\8051\hd44780\display.asm && sdld -i F:\fleg\8051\hd44780\display.rel && packihx F:\fleg\8051\hd44780\display.ihx >F:\fleg\8051\hd44780\display.hex
